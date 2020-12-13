@@ -252,7 +252,7 @@ PrefabInstance:
     - target: {fileID: 408738452708510904, guid: 57993d30cee3e404d82f382083854ae3,
         type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 408738452708510904, guid: 57993d30cee3e404d82f382083854ae3,
         type: 3}
@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 981298713}
   m_Layer: 0
   m_Name: RightHand Controller
-  m_TagString: Untagged
+  m_TagString: Controllers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 1793651187}
   m_Layer: 0
   m_Name: LeftHand Controller
-  m_TagString: Untagged
+  m_TagString: Controllers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1334,6 +1334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hand_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220382583221551337, guid: 50b0ad0913843dc4f820aae6010fc65f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8220382583221551339, guid: 50b0ad0913843dc4f820aae6010fc65f,
         type: 3}
