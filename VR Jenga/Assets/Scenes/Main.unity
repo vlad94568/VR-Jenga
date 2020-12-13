@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc428f767fb5c19448aa0fd6a39cd780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerNum: 100
+  layerNum: 10
   blocksPerLayer: 3
   block: {fileID: 1283304341}
 --- !u!4 &1254070112
