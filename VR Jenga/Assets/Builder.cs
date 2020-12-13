@@ -20,20 +20,43 @@ public class Builder : MonoBehaviour
 
     void buildLayer(int layer)
     {
-        //if (layer % 2 == 0)
-
-        int x = 0; // TODO: fix this to zero.
+        int x = 0; 
         float y = 1.015906f + layer * block.transform.localScale.y;
+        float delta = block.transform.localScale.z / 3;
 
-        for(int z=0; z<blocksPerLayer; z++)
+        for(int b=0; b<blocksPerLayer; b++)
         {
             GameObject blockClone = Instantiate(block);
 
-            blockClone.transform.position = new Vector3(
-                x * block.transform.localScale.x, 
-                y, 
-                1
-            );
+            bool isRotate = layer % 2 == 0;
+
+            if(isRotate)
+            {
+                blockClone.transform.position = new Vector3(
+                    delta,
+                    y, 
+                    (x * block.transform.localScale.x) - delta + 1
+                );
+            }
+
+            else
+            {
+                blockClone.transform.position = new Vector3(
+                    x * block.transform.localScale.x, 
+                    y, 
+                    1
+                );
+            }
+
+
+            if(isRotate)
+            {
+                blockClone.transform.eulerAngles = new Vector3(
+                    blockClone.transform.eulerAngles.x,
+                    blockClone.transform.eulerAngles.y + 90,
+                    blockClone.transform.eulerAngles.z
+                );
+            }
 
             blockClone.SetActive(true);
 

@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class HandPhysics : MonoBehaviour
 {
 
-    public float smoothingAmount = 15.0f;
+    public float smoothingAmount = 15f;
     public Transform target = null;
 
     private Rigidbody rigidBody = null;
@@ -28,7 +28,8 @@ public class HandPhysics : MonoBehaviour
 
     private void SetTargetPosition()
     {
-        float time = smoothingAmount * Time.unscaledDeltaTime;
+        //float time = smoothingAmount * Time.unscaledDeltaTime;
+        float time = 1f;
         targetPosition = Vector3.Lerp(targetPosition, target.position, time);
     }
 

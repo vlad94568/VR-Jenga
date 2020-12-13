@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 408738452708510854, guid: 57993d30cee3e404d82f382083854ae3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.14717557
+      value: 0.18116733
       objectReference: {fileID: 0}
     - target: {fileID: 408738452708510855, guid: 57993d30cee3e404d82f382083854ae3,
         type: 3}
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc428f767fb5c19448aa0fd6a39cd780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerNum: 10
+  layerNum: 100
   blocksPerLayer: 3
   block: {fileID: 1283304341}
 --- !u!4 &1254070112
