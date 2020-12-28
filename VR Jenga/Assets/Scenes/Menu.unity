@@ -1529,6 +1529,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9059582839723422308, guid: 50b0ad0913843dc4f820aae6010fc65f,
         type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059582839723422308, guid: 50b0ad0913843dc4f820aae6010fc65f,
+        type: 3}
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
