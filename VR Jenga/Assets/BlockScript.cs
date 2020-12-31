@@ -26,7 +26,7 @@ public class BlockScript : MonoBehaviour
     }
 
     private void SetSelectMaterial(XRBaseInteractor interactor)
-    {
+    {   
         meshRenderer.material = selectMaterial;
     }
 

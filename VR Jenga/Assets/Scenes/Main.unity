@@ -505,6 +505,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7918769250113306937, guid: 57993d30cee3e404d82f382083854ae3,
         type: 3}
+      propertyPath: inHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7918769250113306937, guid: 57993d30cee3e404d82f382083854ae3,
+        type: 3}
+      propertyPath: staticBlock
+      value: 
+      objectReference: {fileID: 1283304341}
+    - target: {fileID: 7918769250113306937, guid: 57993d30cee3e404d82f382083854ae3,
+        type: 3}
       propertyPath: selectMaterial
       value: 
       objectReference: {fileID: 2100000, guid: c875b6ce7b304d2448e27f420be7765d, type: 2}
